@@ -1,4 +1,5 @@
 <#include "getTextAreaContent_macro.html" />
+<#include '/admin/plugins/announce/commons.html' />
 
 <@formGroup labelFor='attribute${entry.idEntry}' labelKey='${entry.title}' mandatory=entry.mandatory htmlRequired=false>
 	<#assign field=getFieldByCode( entry, "text_config")>
